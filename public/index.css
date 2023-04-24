@@ -1,25 +1,35 @@
+body{
+  background-color: linen;
+}
+
 #root {
   padding: 30px;
   font-family: "Open Sans", sans-serif;
+  
 }
 
 nav > a {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  color: #000000;
   margin-right: 30.5px;
   text-decoration-line: none;
+  color:#ffffff;
+  line-height: 3;
+  margin-left: 2%;
+  
 }
 
 nav > a.active {
   text-decoration-line: underline;
+  font-weight: bolder;
 }
 
 nav {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #979797;
   margin-bottom: 20px;
+  background-color: hsl(242deg 67.4% 38.95% / 50%);
+  border-radius: 4px;
+  width: 50%;
 }
 
 h2 {
@@ -28,15 +38,18 @@ h2 {
   color: #000000;
   margin: 0;
   margin-bottom: 18px;
+  
 }
 
 section {
+  width:50%;
 }
 
 hr {
   border: none;
   border-top: 1px solid #979797;
   margin: 20px 0;
+  width: 50%;
 }
 
 input[type="submit"] {
@@ -56,6 +69,8 @@ input[type="submit"] {
 
 input[type="submit"] {
   cursor: pointer;
+  width: 50%;
+  background-color: hsl(242deg 67.4% 38.95% / 50%);
 }
 
 input,
@@ -66,7 +81,7 @@ select {
   border-radius: 4px;
   padding: 7px 9.5px 9px 9.5px;
   outline: none;
-  width: 100%;
+  width: 50%;
   margin-bottom: 10px;
   box-sizing: border-box;
 }
@@ -75,6 +90,7 @@ select {
   margin: 0;
   font-size: 14px;
   margin-bottom: 4px;
+  
 }
 
 .tile.tile-title {
@@ -83,4 +99,8 @@ select {
 
 .tile-container {
   margin-bottom: 20px;
+}
+
+.whole-tile{
+  border-radius: 4px;
 }
